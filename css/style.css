@@ -52,16 +52,8 @@ p {
 
 /* modal */
 
-.modal .modal-body .person{
-  width: 45%;
-}
-
-.modal .modal-body .lab{
+.modal .modal-body img{
   width: 60%;
-}
-
-.modal .modal-body .pelayanan{
-  width: 48%;
 }
 
 
