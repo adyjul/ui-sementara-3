@@ -31,30 +31,22 @@
     }
   });
 
-  // var elementWindow = $(document).width();
-  // if (979 >= elementWindow) {
-  //   $(".navbar").removeClass("bg-transparent");
-  //   $(".navbar").addClass("bg-white");
-  //   $(".nav-link").removeClass("text-white");
-  // } else {
-  //   $(".navbar").removeClass("bg-white");
-  //   $(".navbar").addClass("bg-transparent");
-  //   $(".nav-link").addClass("text-white");
-  // }
+  var elementWindow = $(document).width();
+  if (979 >= elementWindow) {
+    $(".modal-dialog").css("height","70%");    
+  } else {
+    $(".modal-dialog").css("height","100%");    
+  }
 
-  // $(window).resize(function () {
-  //   // console.log($(document).width())
-  //   var element = $(document).width();
-  //   if (979 >= element) {
-  //     $(".navbar").removeClass("bg-transparent");
-  //     $(".navbar").addClass("bg-white");
-  //     $(".nav-link").removeClass("text-white");
-  //   } else {
-  //     $(".navbar").removeClass("bg-white");
-  //     $(".navbar").addClass("bg-transparent");
-  //     $(".nav-link").addClass("text-white");
-  //   }
-  // });
+  $(window).resize(function () {
+    // console.log($(document).width())
+    var element = $(document).width();
+    if (979 >= element) {
+      $(".modal-dialog").css("height","70%");  
+    } else {
+      $(".modal-dialog").css("height","100%");  
+    }
+  });
 
   // var id = $(".navbar-toggler")
 
