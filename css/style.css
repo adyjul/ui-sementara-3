@@ -50,6 +50,40 @@ p {
 
 /* end navbar */
 
+/* modal */
+
+.modal .modal-body .person{
+  width: 45%;
+}
+
+.modal .modal-body .lab{
+  width: 60%;
+}
+
+.modal .modal-body .pelayanan{
+  width: 48%;
+}
+
+
+.modal .modal-body a{
+  text-decoration: none;
+  color: #2a2a2a;
+  font-weight: bold;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.modal .modal-body .text-center:hover{
+  cursor: pointer;  
+}
+
+.modal .modal-body .text-center{
+  margin-bottom: 2rem;
+}
+
+/* end modal */
+
+
 /* jumbotron */
 
 .jumbotron {
