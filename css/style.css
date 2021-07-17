@@ -91,12 +91,13 @@ p {
 }
 
 .jumbotron img {
-  width: 60%;
+  width: 41%;
 }
 
 .jumbotron .display-4 {
   color: white;
-  margin-top: 70px;
+  margin-top: 50px;
+  font-size: 46px;
 }
 
 .jumbotron p {
@@ -372,7 +373,7 @@ p {
     margin-top: 0;
   }
   .jumbotron h1 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
 
   .jumbotron img {
