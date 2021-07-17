@@ -50,7 +50,8 @@
 
   // var id = $(".navbar-toggler")
 
-  // console.log(id.attr('aria-expanded'))
+
+
 
   var scrollLink = $(".scroll-to-section");
   scrollLink.click(function (e) {
